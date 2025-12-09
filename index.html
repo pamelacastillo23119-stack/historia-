@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Micrositio con Menú</title>
+
+<style>
+/* ===================== */
+/*     PALETA USADA      */
+/* ===================== */
+:root {
+  --color-fondo-nav: #1a1a1a;
+  --color-texto-nav: #ffffff;
+  --color-hover-nav: #ff577f;
+  --color-activo-nav: #ff8fab;
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* ===================== */
+/*         MENÚ          */
+/* ===================== */
+.navbar {
+  background: var(--color-fondo-nav);
+  padding: 12px 0;
+  width: 100%;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: var(--color-texto-nav);
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.nav-menu li a:hover {
+  background: var(--color-hover-nav);
+  color: #000;
+}
+
+.nav-menu li a.active {
+  background: var(--color-activo-nav);
+  color: #000;
+}
+
+
+section {
+  padding: 40px;
+  max-width: 700px;
+  margin: auto;
+}
+</style>
+
+</head>
+<body>
+  
+
+<header>
+  <nav class="navbar">
+    <ul class="nav-menu">
+      <li><a href="MENU-1.html" class="active">Inicio</a></li>
+      <li><a href="historia1.html">Golpes en el coche</a></li>
+      <li><a href="historia3.html">¿Has subido a ver a los niños?</a></li>
+      <li><a href="historia 2.html">Ven a jugar conmigo</a></li>
+      <li><a href="historia 4.html">Anillos en sus dedos</a></li>
+      <li><a href="historia5.html">¿Quién apagó las psicofonías?</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<section>
+  <h1>Historias de terror</h1>
+  <p>en este sitio podras encotar historias terrorificas.</p>
+  <img>
+
+</section>
+<script>
+    
+  alert("Bienvenido a las historias de terror");
+  
+  
+  document.addEventListener("DOMContentLoaded", function() {
+    let titulo = document.querySelector("h1");
+  
+    if (titulo) {
+      titulo.addEventListener("click", function() {
+        titulo.style.color = "#ff577f";
+        titulo.textContent = "¡Te atreviste a tocarme!";
+      });
+    }
+  });
+  </script>
+</body>
+</html>
