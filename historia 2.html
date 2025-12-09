@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ven a jugar conmigo</title>
+
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #ffffff;
+  }
+
+  /* menu */
+  nav {
+    background: #000;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 3px solid #ffb6c1;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  nav a:hover {
+    background: #ffb6c1;
+    color: black;
+  }
+
+  .activo {
+    background: #ffb6c1;
+    color: black;
+  }
+
+  /* contenido */
+  .contenido {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 20px;
+    line-height: 1.8;
+    font-size: 20px;
+    background: #1a1a1a;
+    border-left: 5px solid #ffb6c1;
+    border-radius: 10px;
+  }
+
+  h1 {
+    text-align: center;
+    color: #ffb6c1;
+    margin-bottom: 30px;
+  }
+</style>
+</head>
+
+<body>
+
+
+<nav>
+  <a href="MENU-1.html">Inicio</a>
+  <li><a href="historia1.html">Golpes en el coche</a></li>
+  <a href="historia3.html">“¿Has subido a ver a los niños?”</a>
+  <a href="historia 2.html" class="activo">Ven a jugar conmigo</a>
+  <a href="historia 4.html">Anillos en sus dedos</a>
+  <a href="historia5.html">¿Quién apagó las psicofonías?</a>
+</nav>
+
+
+<div class="contenido">
+  <h1>Ven a jugar conmigo</h1>
+
+  <p>Hace un tiempo, una amiga mía y yo decidimos hacer espiritismo por primera vez, ya que nunca antes nos habíamos atrevido a hacerlo. Llamamos a otras dos amigas para que nos acompañaran, ya que a mí me habían dicho que probablemente con solo dos personas sería más difícil que pasara algo. Nos costó trabajo convencerlas, pero al final cedieron. Lo preparamos todo y, un poco asustadas, comenzamos a hacer la ouija.</p>
+
+  <p>Durante la sesión, una de las compañeras a las que habíamos llamado dijo: “Yo me voy de aquí, menuda tontería esta de la ouija”. Nosotras nos asustamos un poco y decidimos dejarlo para otro momento.</p>
+
+  <p>Al cabo de unos días, la compañera que se había ido me llamó aterrorizada, diciéndome que, de camino a casa después de haber ido a estudiar a la biblioteca, al pasar por delante de una casa en ruinas que hay cerca de su hogar, una niña vestida de blanco le había pedido que jugara con ella. Mi amiga le dijo que no podía ya que tenía prisa por llegar a su casa, y acto seguido, la niña comenzó a llorar con lágrimas de sangre. Mi amiga salió de allí corriendo y al llegar a casa fue cuando me llamó. Hasta ahí fue lo que me contó mi amiga. En un principio me lo tomé a broma, pero algo me hacía pensar que mi amiga hablaba muy en serio.</p>
+
+  <p>En mi habitación comencé a darle vueltas al asunto y me acordé del día en que habíamos hecho espiritismo y de las malas maneras con las que mi amiga se había retirado. Pensé que no tendría nada que ver y me dormí. Al día siguiente esa misma amiga me llamó porque iba a quedarse sola en casa estudiando y tenía miedo, así que decidí acompañarla ya que yo tenía también que estudiar. Cogí un autobús y, ya en su casa, nos pusimos a estudiar.</p>
+
+  <p>De repente, oímos a nuestra espalda un ruido como de arañazos. Las dos miramos y comprobamos horrorizadas que la niña que ella me había descrito estaba sentada sobre la cama de mi amiga, arañando la pared. Salimos corriendo de la habitación y al llegar a la puerta observé que mi amiga no estaba, pero yo estaba demasiado asustada para esperarla.</p>
+
+  <p>Un rato después, la policía llamó a mi casa informándome de que mi amiga había muerto de un ataque de asma. La habían encontrado en las escaleras de su casa, con una expresión de terror en su cara. Yo estuve en tratamiento psiquiátrico unos meses y ya me estaba recuperando, pero el otro día, en mi buzón apareció una nota escrita con letra de niña pequeña que decía:</p>
+
+  <p style="text-align:center; font-style:italic; color:#ffb6c1;">“Tu amiga murió por no jugar conmigo. Tengo una muñeca nueva…”</p>
+
+  <p>Yo creo que es una broma, ya que nuestra historia se ha hecho bastante popular en el pueblo, pero por otra parte tengo miedo… ¿vendrá a por mí?</p>
+</div>
+<script>
+ 
+  alert("Bienvenido a la historia: Ven a jugar conmigo");
+  
+  
+  document.addEventListener("DOMContentLoaded", function() {
+    let titulo = document.querySelector("h1");
+  
+    if (titulo) {
+      titulo.addEventListener("click", function() {
+        titulo.style.color = "#ffb6c1";
+        titulo.textContent = "¿si vendras a jugar?";
+      });
+    }
+  });
+  </script>
+  
+</body>
+</html>

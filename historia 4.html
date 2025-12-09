@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Anillos en sus dedos</title>
+
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #ffffff;
+  }
+
+
+  nav {
+    background: #000;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 3px solid #ffb6c1;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  nav a:hover {
+    background: #ffb6c1;
+    color: black;
+  }
+
+  .activo {
+    background: #ffb6c1;
+    color: black;
+  }
+
+
+  .contenido {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 20px;
+    line-height: 1.8;
+    font-size: 20px;
+    background: #1a1a1a;
+    border-left: 5px solid #ffb6c1;
+    border-radius: 10px;
+  }
+
+  h1 {
+    text-align: center;
+    color: #ffb6c1;
+    margin-bottom: 30px;
+  }
+</style>
+</head>
+
+<body>
+
+<nav>
+  <a href="MENU-1.html">Inicio</a>
+  <a href="historia1.html">Golpes en el coche</a>
+  <a href="historia3.html">“¿Has subido a ver a los niños?”</a>
+  <a href="historia 2.html">Ven a jugar conmigo</a>
+  <a href="historia 4.html" class="activo">Anillos en sus dedos</a>
+  <a href="historia5.html">¿Quién apagó las psicofonías?</a>
+</nav>
+
+<div class="contenido">
+  <h1>Anillos en sus dedos</h1>
+
+  <p>Daisy Clark había estado en coma durante más de un mes cuando el médico dijo que finalmente había muerto. Fue enterrada en un fresco día de verano en un pequeño cementerio a un kilómetro y medio de su casa.</p>
+
+  <p>“Que descanse siempre en paz”, dijo su marido. Pero no lo hizo. A última hora de la noche, un ladrón de tumbas con una pala y una linterna comenzó a desenterrarla. Como la tierra seguía estando suelta, llegó rápidamente al ataúd y lo abrió.</p>
+
+  <p>Su presentimiento era cierto. Daisy había sido enterrada portando dos valiosos anillos: un anillo de bodas con un diamante y un anillo con un rubí que brillaba como si estuviera vivo.</p>
+
+  <p>El ladrón se arrodilló y extendió sus manos dentro del ataúd para arrebatar los anillos, pero estaban totalmente adheridos a sus dedos. Decidió que la única manera de hacerse con ellos era cortando los dedos con un cuchillo.</p>
+
+  <p>Pero cuando cortó el dedo con la alianza, este comenzó a sangrar, y Daisy Clark comenzó a moverse. ¡De repente, ella se sentó! Aterrorizado, el ladrón se puso en pie. Golpeó accidentalmente la linterna y la luz se apagó.</p>
+
+  <p>Podía oír a Daisy salir de su tumba. Al pasar junto a él en la oscuridad, el ladrón se quedó congelado de miedo, aferrando el cuchillo con la mano. Cuando Daisy lo vio, se cubrió con su sudario y le preguntó:</p>
+
+  <p style="text-align:center; font-style:italic; color:#ffb6c1;">“¿Quién eres?”</p>
+
+  <p>Al escuchar hablar al “cadáver”, el ladrón de tumbas corrió. Daisy se encogió de hombros y siguió caminando, y no miró hacia atrás ni una sola vez.</p>
+
+  <p>Pero llevado por su temor y confusión, el ladrón huyó en la dirección equivocada. Cayó dentro de la tumba abierta, cayó sobre el cuchillo que llevaba en su mano y él mismo se apuñaló.</p>
+
+  <p>Mientras Daisy caminaba hacia su hogar, el ladrón se desangró hasta morir.</p>
+</div>
+<script>
+ 
+  alert("Bienvenido a la historia: Anillos en sus dedos");
+  
+  
+  document.addEventListener("DOMContentLoaded", function() {
+    let titulo = document.querySelector("h1");
+  
+    if (titulo) {
+      titulo.addEventListener("click", function() {
+        titulo.style.color = "#ffb6c1";
+        titulo.textContent = "¿viste los anillos?";
+      });
+    }
+  });
+  </script>
+  
+</body>
+</html>
